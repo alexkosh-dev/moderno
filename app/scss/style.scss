@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(163, 30, 92);
+  
+}
+
+
+.box {
+  display: inline-flex;
+  background-color: chartreuse;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  .box1{
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+  }
+  .box2{
+    background-color: coral;
+    width: 200px;
+    height: 200px;
+  }
+}
